@@ -1,0 +1,69 @@
+/* contact form css */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700;800;900&display=swap');
+       @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+section {
+    padding: 3rem 0;
+}
+
+.contact .contact-form{
+    background-color: #e2f6de;
+    padding: 3rem;
+    box-shadow: 0 0.2rem 1.5rem rgb(0 0 0 / 4%);
+}
+.contact .contact-form .form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.contact .contact-form .form-control::placeholder{
+    color: #061738;
+}
+.contact .contact-form .form-control{
+    padding: 1rem 1.5rem;
+    border-radius: 0.rem;
+    border: 0.1rem solid #9812cd;
+    color: var( #061738);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.contact .contact-form textarea {
+    min-height: 15rem;
+}
+.contact .content-box .info-box li {
+    position: relative;
+    padding-left: 5rem;
+    padding-bottom: 3.5rem;
+    margin-bottom: 2.9rem;
+}
+.contact .content-box .info-box li i {
+    position: absolute;
+    left: 0;
+    top: 1.5rem;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    color: #061738;
+}
+.contact .content-box .info-box li p {
+    color: #061738;
+}
+
+.contact .content-box .info-box li a {
+    color:  #03262c;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.contact .contact-form .row .btn {
+    padding: 10px 34px;
+    border: none;
+    border-radius: 0.5rem;
+    background: var(--gradient);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.contact .contact-form .row .btn:hover {
+    background: var(--main-color);      
+}
+
